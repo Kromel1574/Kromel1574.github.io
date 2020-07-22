@@ -1,0 +1,30 @@
+body 
+{background-color:#e8e3e3 }
+
+.login-div{
+padding:15px;
+border:solid 3px #bdbb70;
+box-shadow:0,0,2px;
+dispay:inline-block;}
+.repce{color: burlywood;}
+.login-div input{
+    display: block;
+    margin-bottom: 7px;}
+input[class*="control"]{
+    display: block;}
+.login-div input[class="form-control blue"]{
+    border: solid blue;}
+.login-div input[class="form-control red"]{
+    border: solid red;}
+.login-div button:hover{
+    box-shadow: 2px 3px 3px #c0c0c0;}
+.login-div input:focus{
+    box-shadow: 2px 3px 3px #b0b0b0;
+    border:none;}
+ul li:last-child{
+    font-family: Arial ;
+    text-decoration:underline }
+ul li:hover{
+    color:red;}
+ul li nth-child(2){
+    color:blue;}
